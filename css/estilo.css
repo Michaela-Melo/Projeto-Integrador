@@ -10,7 +10,12 @@ a{
     text-decoration: none;
     color:#033313;
 }
-
+p{
+   color: #5C4033;
+}
+h1{
+   color: #5C4033;
+}
 .m_sobre h1{
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
     font-size: 1.5em;
@@ -38,6 +43,10 @@ width: 100%;
    font-family:'https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap' ;
 }
 
+.cor_btn{
+   background-color: #ab4516;
+}
+/*
 input { 
    width: 20%; 
    height: 30px; 
@@ -46,16 +55,17 @@ input {
    background-color: white; 
    border: solid rgb(1, 1, 1) 1.5px; 
    border-radius: 10px; 
-   /*Características para colocar a imagem da Lupa dentro do Input*/ 
+   /*Características para colocar a imagem da Lupa dentro do Input
    background-size: 10%; 
    background-repeat: no-repeat; 
    background-position: top 5px right 10px; 
    padding: 5px; 
-   /*Características para posição dentro do cabeçalho*/ 
+   /*Características para posição dentro do cabeçalho
    margin-top: 30px; 
    margin-right: 20px; 
    float: right; 
 } 
+*/
 
 .logo {
    float: left;
@@ -222,3 +232,8 @@ width: 50%;
    text-align: center;
 
 }
+/*
+.corjumbo{
+            background-color: #A3B18A ;
+        }
+*/
