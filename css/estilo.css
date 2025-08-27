@@ -8,26 +8,22 @@ body, html{
 }
 a{
     text-decoration: none;
-    color:#033313;
+ 
+   
 }
-p{
-   color: #5C4033;
-}
-h1{
-   color: #5C4033;
-}
+
 .m_sobre h1{
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
     font-size: 1.5em;
     line-height: 1.2em;
-    color: rgb(13, 66, 13);
+
     text-align: center;
 }
 .m_sobre p{
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
     font-size: 1em;
     line-height: 1.2em;
-    color: rgb(13, 66, 13);
+ 
     text-align: justify;
     padding: 20px 40px;
 }
@@ -44,7 +40,7 @@ width: 100%;
 }
 
 .cor_btn{
-   background-color: #ab4516;
+   background-color: #A3B18A;
 }
 /*
 input { 
@@ -232,8 +228,8 @@ width: 50%;
    text-align: center;
 
 }
-/*
+
+
 .corjumbo{
-            background-color: #A3B18A ;
+            border: #5C4033 ;
         }
-*/
