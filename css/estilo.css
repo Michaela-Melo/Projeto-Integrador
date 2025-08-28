@@ -125,7 +125,6 @@ a li:hover{
    background-color: #5C4033;
    color: #000000;
    text-align:center;
-   font-family:'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap' ;
    margin: 0;
 
 }
@@ -153,7 +152,7 @@ a li:hover{
 .roda {
    margin-top: -20px;
    height: 450px;
-   background-color: #937257;
+   background-color: #A3B18A;
   /* #bda461
    #97735c
    #969f99
@@ -237,3 +236,75 @@ width: 50%;
 .corjumbo{
             border: #5C4033 ;
         }
+
+        #cartSidebar {
+      position: fixed;
+      top: 0;
+      right: -350px;
+      width: 350px;
+      height: 100%;
+      background: #fff;
+      border-left: 1px solid #ddd;
+      box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+      transition: right 0.3s ease-in-out;
+      z-index: 1050;
+      display: flex;
+      flex-direction: column;
+    }
+    #cartSidebar.active {
+      right: 0;
+    }
+    .cart-header, .cart-footer {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    .cart-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 15px;
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+    .cart-item img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 6px;
+    }
+    .remove-item {
+      background: none;
+      border: none;
+      font-size: 18px;
+      color: red;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    .btn-shein {
+      background-color: #ff3f6c;
+      color: #fff;
+      border: none;
+    }
+    .btn-shein:hover {
+      background-color: #e1355c;
+      color: #fff;
+    }
+
+    .container {
+  margin-top: 0 !important;
+}
+
+.produtos-container {
+  margin-top: 0 !important;
+}
+
+/* zera qualquer margem/padding que esteja sobrando */
+.produtos-container { 
+  margin-top: 0 !important; 
+  padding-top: 0 !important;
+}
