@@ -6,11 +6,13 @@ body, html{
    background-color: #f9ebdb;
 
 }
-a{
+ a{
     text-decoration: none;
+    color: #5C4033;
  
    
 }
+
 
 .m_sobre h1{
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
@@ -70,7 +72,7 @@ input {
    padding: 10px
 }
 /*Características feitas apenas para a lista (ul) dentro da class .cabe*/
-.cabe ul {
+.ul{
    float: left;
    width: 50%;
    margin: 0px 0px 0px 20px;
@@ -78,7 +80,7 @@ input {
    text-align: center;
 }
 
-.cabe ul li {
+.cor_btn ul li{
    text-decoration: none;
    display: inline; /*Torna a lista horizontal*/
    padding: 40px;
@@ -88,8 +90,8 @@ input {
    cursor: pointer;
 }
 
-.cabe ul li:hover {
-   color:#f9ebdb
+a li:hover{
+   color:#f9ebdb;
 
 }
 /*Características para imagens de fundo que dão o efeito paralax*/
@@ -120,12 +122,14 @@ input {
 
 
 .conteudo {
-   background-color: #937257;
-   color: #060807;
-   text-align:left;
-   padding: 100px 50px 100px 50px;
+   background-color: #5C4033;
+   color: #000000;
+   text-align:center;
+   font-family:'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap' ;
+   margin: 0;
 
 }
+/*
 .conteudo p {
     font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
     font-size: 1.5em;
@@ -143,7 +147,7 @@ input {
     text-align: center;
 
  }
-
+*/
 
 
 .roda {
